@@ -10,5 +10,4 @@ class UserStates(StatesGroup):
     waiting_for_appeal = State()
 
 class AddNotify(StatesGroup):
-    waiting_rooms = State()
-    waiting_user_id = State()
+    add_notify = State()
